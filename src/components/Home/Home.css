@@ -1,0 +1,101 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  #home{
+    margin-top: 5rem;
+    background-color: var(--sky);
+    padding: 2%;
+    padding-bottom: 20px;
+  }
+
+  .App {
+    background-image: url('../../Assets/home.png');
+    background-size: cover;
+    background-position: 90%;
+    height: 100vh;
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+  }
+  .home-container{
+    max-width: 50%;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+
+.home-container h1{
+      font-size: 48px;
+      font-weight: 900;
+      font-family: var(--font-base);
+      color: var(--color-black);
+  }
+  .home-container p{
+    font-size: 16px;
+    font-weight: 500;
+    font-family: var(--font-alt);
+  }
+  .home-container button{
+    background-color: #0169C2;
+    color: #fff;
+    font-size: 16px;
+    width: 48%;
+    font-family: var(--font-alt);
+    padding: 2% 4%;
+    border-radius: 6px;
+    border-width: 0px;
+  }
+  .home-container-two{
+    max-width: 100%;
+    text-align: center;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+.home-container-two h1{
+      font-size: 32px;
+      font-family: var(--font-base);
+      margin: 2rem 0;
+      font-weight: 700;
+      color: var(--color-black);
+    }
+    .home-container-two p{
+    margin: 2rem 0;
+    font-family: var(--font-alt);
+    font-weight: 500;
+    font-size: 16px;
+  }
+  .home-container-two div{
+    text-align: center;
+  }
+  .home-container-two div button{
+    background-color: #0169C2;
+    color: #fff;
+    font-size: 16px;
+    font-family: var(--font-alt);
+    width: 40%;
+    margin: 0 auto 2rem;
+    padding: 12px 4px;
+    border-radius: 6px;
+    border-width: 0px;
+  }
+   
+  @media screen and (max-width: 760px) {
+    .home-container {
+      display: none;
+    }
+    .home-container-two{
+      display: inline;
+    }
+    
+  }
+  @media screen and (min-width: 761px) {
+    .home-container-two{
+      display: none;
+    }
+  }

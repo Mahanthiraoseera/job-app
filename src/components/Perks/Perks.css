@@ -1,0 +1,113 @@
+.perks-container{
+    background-color: var(--grey);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+.card-div{
+    display: flex;
+    flex-direction: column;
+}
+
+.card-divs{
+    display: flex;
+}
+
+.card-one{
+    background-color: white;
+    border-radius: 16px;
+    padding: 2%;
+    height: 250px;
+    width: 250px;
+    margin: 6% 3% 3% 6%;
+}
+.card-one img{
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+}
+.card-one h2{
+    font-family: var(--font-base);
+    font-size: 20px;
+    margin: 4% 0;
+    font-weight: 700;
+}
+.card-one p{
+    font-family: var(--font-alt);
+    font-size: 13px;
+    font-weight: 400;
+}
+.card-two p{
+    font-size: 13px;
+    font-family: var(--font-alt);
+    font-weight: 400;
+}
+.card-two h2{
+    font-size: 20px;
+    font-family: var(--font-base);
+    margin: 4% 0;
+    font-weight: 700;
+}
+.card-two img{
+    width: 40px;
+    height: 40px;
+    width: 40px;
+    padding: 10px;
+}
+.card-two{
+    height: 250px;
+    width: 250px;
+    background-color: white;
+    border-radius: 16px;
+    padding: 2%;
+    margin: 12% 4% 3% 3%;
+}
+
+
+
+
+
+
+
+
+.perks-text{
+    width: 100%;
+    margin: auto 6%;
+    
+}
+.perks-text h1{
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 5%;
+    font-family: var(--font-base);
+}
+.perks-text p{
+    font-size: 15px;
+    font-weight: 400;
+    font-family: var(--font-alt);
+    margin-bottom: 5%;
+}
+.perks-text button{
+    background-color: var(--orange);
+    padding: 2.5% 8%;
+    color: white;
+    font-family: var(--font-alt);
+    font-size: 14px;
+    border-radius: 8px;
+    border-width: 0px;
+}
+
+@media screen and (min-width: 0px) and (max-width: 960px){
+    .card-div{
+        display: block;
+        box-sizing: border-box;
+    }
+    .perks-container{
+        display: block;
+        width: 100%;
+    }
+    .perks-container p{
+        width: 90%;
+    }
+  }

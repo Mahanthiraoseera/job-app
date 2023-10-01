@@ -1,0 +1,220 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.contact{
+    background-color: var(--grey);
+    padding: 7% 2.5% 12% 2.5%;
+}
+.contact-div{
+    border-radius: 12px;
+    margin: 5%;
+    padding: 1rem;
+    background-color: white;
+    box-sizing: border-box;
+    display: flex;
+}
+.flex-main{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.flex-sub{
+    display: flex;
+    flex-direction: column;
+}
+.flex-one{
+    display: flex;
+}
+.chat-div-one{
+    background-color: #f6b1ef;
+    width: 49%;
+    border-radius: 16px;
+    border-width: 3px;
+    border-color: rgb(70, 1, 1);
+    padding: 2rem;
+    margin: 1rem;
+}
+.chat-div-two{
+    margin: 1rem;
+    background-color: var(--green);
+    width: 49%;
+    border-radius: 16px;
+    border-width: 4px;
+    border-color: rgb(181, 13, 139);
+    padding: 2rem;
+}
+.chat-div-three{
+    background-color: var(--yellow);
+    width: 96%;
+    border-radius: 16px;
+    border-width: 3px;
+    border-color: rgb(0, 83, 7);
+    padding: 0 2rem 2rem 2rem;
+    margin: 1rem;
+}
+.chat-div-one img, .chat-div-two img, .chat-div-three img{
+    height: 36px;
+    margin-top: 1rem;
+    
+}
+.chat-div-one h2, .chat-div-two h2, .chat-div-three h2{
+    height: 36px;
+    font-family: var(--font-alt);
+    margin-top: 1rem;
+    color: #141414;
+    font-size: 20px;
+    font-weight: 700;
+    margin: 1rem 0px;
+}
+.chat-div-one p, .chat-div-two p, .chat-div-three p{
+    font-size: 14px;
+    font-family: var(--font-alt);
+    font-weight: 400;
+}
+
+
+.chat-para{
+    color: rgb(107, 1, 107);
+}
+.chat-para-two{
+    color: rgb(1, 144, 34);
+}
+.chat-para-three{
+    color: rgb(150, 110, 0);
+}
+.chat-div-one button, .chat-div-two button, .chat-div-three button{
+    font-size: 14px;
+    font-weight: 400;
+    margin: 1rem 0.3rem;
+    color: white;
+    padding: 0.5rem 1.6rem;
+    border-radius: 20px;
+    border-width: 0px;
+
+}
+
+
+.chat-btn{
+    background-color: rgb(89, 3, 89);
+}
+.chat-btn-two{
+    background-color: rgb(10, 74, 0);
+}
+.chat-btn-three{
+    background-color:#000000;
+}
+.chat-btn-four{
+    font-size: 14px;
+    font-weight: 400;
+    margin: 1rem;
+    color: #000000;
+    background-color:#ff3232;
+    padding: 8px 32px;
+    border-radius: 20px;
+    border-width: 0px;
+}
+
+
+
+
+.chat-text-div{
+    width: 100%;
+    padding:1rem 1rem;
+
+}
+
+.search-header{
+    font-size: 32px;
+    width: 100%;
+    text-align: left;
+    font-family: var(--font-base);
+    font-weight: 800;
+    margin-bottom: 1rem;
+}
+.flex-chat{
+    display: flex;
+    width: 100%;
+    margin: 0 2rem;
+}
+.flex-chat div{
+    margin-bottom: 1rem;
+}
+.labels{
+    width: 96%;
+    font-family: var(--font-alt);
+    font-size: 12px;
+    font-weight: 600;
+}
+.labels-radio{
+    width: 96%;
+    font-family: var(--font-alt);
+    font-size: 12px;
+    font-weight: 600;
+    margin: 1rem 1rem 2rem 2rem;
+}
+.label-texts{
+    border-width: 0px 0px 1px 0px;
+    outline: none;
+    width: 80%;
+}
+.flex-one-radio{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.radio-label{
+    width: 96%;
+    font-size: 12px;
+    font-family: var(--font-alt);
+    font-weight: 500;
+    width: 100%;
+    margin: 0.5rem 0;
+}
+.radio-size{
+    width: 16px;
+    margin: 0.5rem;
+}
+.flex-chat-msg{
+    width: 100%;
+    padding: 2rem;
+    
+}
+.label-text-msg{
+    font-size: 14px;
+    font-family: var(--font-alt);
+    font-weight: 300;
+    width: 100%;
+    height: 10%;
+    outline: none;
+    padding: 1rem 0.3rem;
+    border-width: 0px 0px 1px 0px;
+}
+
+.flex-chat-btn{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.msg-btn-ele{
+    background-color: rgb(247, 5, 5);
+    color: white;
+    font-size: 16px;
+    padding: 1rem 2rem;
+    border-width: 0px;
+    border-radius: 12px;
+}
+
+ 
+@media screen and (min-width: 0px) and (max-width: 960px){
+    .contact-div{
+        display: flex;
+        flex-direction: column;
+    }
+    .chat-text-div{
+        margin: 1rem;
+        padding: 1rem 2rem;
+    }
+}
